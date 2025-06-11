@@ -11,6 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -18,12 +19,14 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      }
     },
     "web": {
+      "favicon": "./assets/favicon.png",
       "bundler": "metro",
-      "favicon": "./assets/favicon.png"
+      "build": {
+        "assetPrefix": "/career-planner"
+      }
     },
     "extra": {
       "router": {
