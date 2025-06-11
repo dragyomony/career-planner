@@ -2,6 +2,7 @@
   "name": "career-planner",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://dragyomony.github.io/career-planner/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -23,7 +24,9 @@
     "react-native-web": "^0.20.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "typescript": "~5.8.3",
+    "@types/react": "~19.0.10"
   },
   "private": true
 }

@@ -26,7 +26,8 @@
       "bundler": "metro",
       "build": {
         "assetPrefix": "/career-planner"
-      }
+      },
+      "publicPath": "/career-planner/"
     },
     "extra": {
       "router": {
